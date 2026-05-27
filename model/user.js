@@ -1,6 +1,5 @@
 const mongoose = require("mongoose");
 const validator=require("validator");
-const { validate } = require("../../Day-1/model/auth");
 const userScheme = new mongoose.Schema({
   name:{
     type:String,
